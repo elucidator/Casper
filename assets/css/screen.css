@@ -1708,6 +1708,67 @@ body:not(.post-template) .post-title {
 
 }
 
+/* ==========================================================================
+   11a. Elucidating mods
+   ========================================================================== */
+
+.blog-header {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+@media only screen and (max-width: 800px) {
+    .blog-header {
+        padding: 0 16px; } }
+.blog-header .blog-logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -60px;
+    right: 50%;
+    margin-right: -60px;
+    background-size: cover;
+    border-radius: 50%;
+    z-index: 99;
+    text-indent: -9999px;
+    border: 3px solid white;
+    background-color: white;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+.blog-header .blog-title {
+    margin: 0;
+    padding: 84px 16px 8px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -2px;
+    outline: 0;
+    line-height: 50px;
+    word-break: break-word;
+    color: #333333; }
+.blog-header .blog-description {
+    margin: 0 0 20px;
+    padding: 0 32px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666666;
+    text-align: center;
+    font-weight: 400; }
+.blog-header .custom-links {
+    margin: 0 0 50px;
+    text-align: center;
+    color: #cccccc; }
+.blog-header .custom-links a {
+    text-decoration: none;
+    color: #999999; }
+.blog-header .custom-links a:hover {
+    color: #333333; }
+
 
 /* ==========================================================================
    12. Animations
