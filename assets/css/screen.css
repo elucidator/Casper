@@ -26,7 +26,7 @@
 
 article, aside, details,
 figcaption, figure,
-footer, header, hgroup,
+footer, header,
 main, nav, section,
 summary {
     display: block;
@@ -796,7 +796,7 @@ margin on the iframe, cause it breaks stuff. */
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
-    color: rgba(18, 20, 20, 0.9);;
+    color: rgba(19, 6, 6, 0.7);
 }
 
 .page-description {
@@ -806,7 +806,7 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: 400;
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
-    color: rgba(18, 20, 20, 0.9);
+    color: rgba(19, 6, 6, 0.7);
 }
 
 .no-cover.main-header {
@@ -1470,6 +1470,14 @@ body:not(.post-template) .post-title {
 }
 
 /* ==========================================================================
+   Line Numbers
+   ========================================================================== */
+.line-numbers .line-numbers-rows {
+    top: -5px;
+}
+
+
+/* ==========================================================================
    10. Media Queries - Smaller than 900px
    ========================================================================== */
 
@@ -1924,7 +1932,7 @@ body:not(.post-template) .post-title {
 .blog-header .custom-links {
     margin: 0 0 50px;
     text-align: center;
-    color: color: rgba(18, 20, 20, 0.9);
+    color: rgba(18, 20, 20, 0.9);
 }
 
 .blog-header .custom-links a {
