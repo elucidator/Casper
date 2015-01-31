@@ -1,8 +1,18 @@
-# Casper
+# Elucidating Casper
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+This theme is based on the following Themes:
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+* [Bentely](https://bitbucket.org/caffein8/bentley)
+* [Readium](http://www.svenread.com/readium-ghost-theme/)
+
+I merged the two themes to come op with my own theme. Adjusted to my personal likes.
+
+Since I am not a Frontend developer, those who are will probably comment heavily on this one :-). But please feel free to do so, i am not easily offended.
+
+Please feel free to adapt and change to your own likings, but bugs I would like to know.
+
+# Things to do
+When using this theme, add your own Google analytics code in the default.hbs
 
 ## Copyright & License
 
